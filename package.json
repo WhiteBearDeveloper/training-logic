@@ -1,0 +1,23 @@
+{
+  "name": "training-logic",
+  "version": "1.0.0",
+  "description": "logic and types for training app",
+  "main": "dist/index.js",
+  "types": "dist",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhiteBearDeveloper/training-logic.git"
+  },
+  "author": "WhiteBearDeveloper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WhiteBearDeveloper/training-logic/issues"
+  },
+  "homepage": "https://github.com/WhiteBearDeveloper/training-logic#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
