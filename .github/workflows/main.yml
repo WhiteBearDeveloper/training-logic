@@ -1,4 +1,4 @@
-name: Node.js Package
+name: Training Logic Package
 
 on: 
   push: 
@@ -16,6 +16,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@WhiteBearDeveloper'
       - run: npm install
+      - run: npm run build
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
