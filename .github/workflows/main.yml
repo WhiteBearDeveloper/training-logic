@@ -1,23 +1,21 @@
 name: Training Logic Package
 
-on: 
-  push: 
-    branches: 
+on:
+  push:
+    branches:
       - main
-      
-jobs: 
+
+jobs:
   publish-gpr:
     runs-on: ubuntu-latest
-    steps: 
+    steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
-          scope: '@WhiteBearDeveloper'
+          scope: "@WhiteBearDeveloper"
       - run: npm install
-      - run: npm run build
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-    
