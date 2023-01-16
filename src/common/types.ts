@@ -10,7 +10,7 @@ export interface WithProfileId {
   profileId: number;
 }
 
-export interface CommonWithAndProfileId extends WithId, WithProfileId {
+export interface CommonWithIdAndProfileId extends WithId, WithProfileId {
   name: string;
 }
 
