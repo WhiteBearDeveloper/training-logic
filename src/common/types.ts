@@ -10,9 +10,10 @@ export interface WithProfileId {
   profileId: number;
 }
 
-export interface CommonWithIdAndProfileId extends WithId, WithProfileId {
+export interface Common extends WithId {
   name: string;
 }
+export interface CommonWithProfileId extends Common, WithProfileId {}
 
 export interface DateInfoFromDatabase {
   createdAt: string;
