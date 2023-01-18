@@ -5,6 +5,6 @@ export interface AuthProps {
   password: string;
 }
 
-interface AuthAnswer extends WithId {
+export interface AuthAnswer extends WithId {
   token: string;
 }
