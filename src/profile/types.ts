@@ -8,4 +8,6 @@ export interface ProfileProps {
   sex: SexEnum;
 }
 
-export interface ProfileAnswer extends WithId, DateInfoFromDatabase {}
+export interface ProfileModel extends ProfileProps, WithId {}
+
+export interface ProfileAnswer extends ProfileModel, DateInfoFromDatabase {}
