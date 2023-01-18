@@ -9,5 +9,3 @@ export interface ProfileProps {
 }
 
 export interface ProfileModel extends ProfileProps, WithId {}
-
-export interface ProfileAnswer extends ProfileModel, DateInfoFromDatabase {}
