@@ -1,10 +1,12 @@
 import { WithId } from "../common/types";
 
-export interface AuthProps {
+interface AuthCommon {
   email: string;
+}
+export interface AuthProps extends AuthCommon {
   password: string;
 }
 
-export interface AuthAnswer extends WithId {
+export interface AuthAnswer extends WithId, AuthCommon {
   token: string;
 }
