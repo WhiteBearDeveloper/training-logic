@@ -1,14 +1,14 @@
 {
   "name": "@whitebeardeveloper/training-logic",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "logic and types for training app",
-  "main": "dist/index.js",
+  "main": "logic/index.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@WhiteBearDeveloper"
   },
-  "types": "dist",
+  "types": "logic",
   "scripts": {
-    "build": "tsc && copyfiles -u l src/**/*.d.ts dist"
+    "build": "tsc && copyfiles -u l src/**/*.d.ts logic"
   },
   "author": "WhiteBearDeveloper",
   "license": "ISC",
@@ -16,7 +16,7 @@
     "url": "https://github.com/WhiteBearDeveloper/training-logic/issues"
   },
   "files": [
-    "dist"
+    "logic"
   ],
   "homepage": "https://github.com/WhiteBearDeveloper/training-logic#readme",
   "devDependencies": {
