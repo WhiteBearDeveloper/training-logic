@@ -1,4 +1,5 @@
-import { DateInfoFromDatabase, SexEnum, WithId } from "../common/types";
+import { WithId } from "@whitebeardeveloper/common-logic/logic/types/base.types";
+import { SexEnum } from "@whitebeardeveloper/common-logic/logic/types/user.types";
 
 export interface ProfileProps {
   firstName: string;
