@@ -1,6 +1,6 @@
 {
   "name": "@whitebeardeveloper/training-logic",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "logic and types for training app",
   "main": "logic/index.js",
   "publishConfig": {
