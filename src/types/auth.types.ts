@@ -1,4 +1,4 @@
-import { WithId } from "../common/types";
+import { WithId } from "./common.types";
 
 interface AuthCommon {
   email: string;

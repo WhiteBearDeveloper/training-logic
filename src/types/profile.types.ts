@@ -1,5 +1,9 @@
-import { WithId } from "@whitebeardeveloper/common-logic/logic/types/base.types";
-import { SexEnum } from "@whitebeardeveloper/common-logic/logic/types/user.types";
+import { WithId } from "./common.types";
+
+export enum SexEnum {
+  "male" = 1,
+  "female" = 2,
+}
 
 export interface ProfileProps {
   firstName: string;
