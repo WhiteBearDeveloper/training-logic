@@ -17,4 +17,9 @@ export interface WithProfileId {
   profileId: number;
 }
 
+export interface WithAuthorId {
+  authorId: number;
+}
+
 export interface CommonWithProfileId extends CommonWithId, WithProfileId {}
+export interface CommonWithAuthorId extends CommonWithId, WithAuthorId {}
