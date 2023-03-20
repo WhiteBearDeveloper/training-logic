@@ -25,9 +25,7 @@ export interface CommonWithProfileId extends CommonWithId, WithProfileId {}
 export interface CommonWithAuthorId extends CommonWithId, WithAuthorId {}
 
 export interface Control {
-  control?: ControlProps;
-}
-
-export interface ControlProps {
-  isEditable?: boolean;
+  control?: {
+    isEditable?: boolean;
+  };
 }
