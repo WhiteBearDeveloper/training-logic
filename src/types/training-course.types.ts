@@ -1,8 +1,8 @@
-import { Common, WithId, WithProfileId } from "./common.types";
+import { Common, WithId, WithAuthorId } from "./common.types";
 
 export interface TrainingCourseProps extends Common {}
 
 export interface TrainingCourseModel
   extends TrainingCourseProps,
     WithId,
-    WithProfileId {}
+    WithAuthorId {}
