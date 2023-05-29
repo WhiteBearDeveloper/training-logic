@@ -7,3 +7,5 @@ export interface TrainingCourseModel
     WithId,
     WithAuthorId,
     Control {}
+
+    export type TrainingCourseDeleteAnswer = Promise<number>;
