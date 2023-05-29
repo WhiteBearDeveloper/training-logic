@@ -8,4 +8,4 @@ export interface TrainingCourseModel
     WithAuthorId,
     Control {}
 
-    export type TrainingCourseDeleteAnswer = Promise<number>;
+export type TrainingCourseDeleteAnswer = Promise<number>;
